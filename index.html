@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="/styles/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+
+
+  <title>Registration Form</title>
+</head>
+<body>
+  <main class="form-container"> 
+    <form>
+      <h1>Registration</h1>
+      
+
+      <label for="full-name">Full Name:</label>
+      <input type="text" id="full-name" name="full-name">
+
+      <label for="account-name">Account Name:</label>
+      <input type="text" id="account-name" name="account-name">
+    
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email">
+    
+      <label for="secret-question">Secret Question:</label>
+      
+      <select id="secret-question" name="secret-question">
+        <option value="">Select a question</option>
+        <option value="question1">What is your mother's maiden name?</option>
+        <option value="question2">What was your childhood nickname?</option>
+        <option value="question3">What is was your first pet?</option>
+        <option value="question4">what is your favorite movie?</option> 
+      </select>
+      <input type="text" placeholder="Answer" id="secret-question2" name="secret-question">
+
+    
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+    
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Message for us?" name="message"></textarea>
+
+      
+      <label class="labelnews" for="newsletter">&#10229;Subscribe to our newsletter</label>
+      <input type="checkbox" id="newsletter" name="newsletter">
+    
+      <input type="submit" value="Submit">
+    </form>
+    
+  </main> 
+</body>
+</html>
