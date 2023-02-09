@@ -24,28 +24,29 @@
       
 
       <label for="full-name">Full Name:</label>
-      <input type="text" id="full-name" name="full-name">
+      <input type="text" id="full-name" required name="full-name">
 
       <label for="account-name">Account Name:</label>
-      <input type="text" id="account-name" name="account-name">
+      <input type="text" id="account-name" required name="account-name">
     
       <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email">
+      <input type="email" required id="email" name="email">
     
       <label for="secret-question">Secret Question:</label>
       
-      <select id="secret-question" name="secret-question">
+      <select id="secret-question" required name="secret-question">
         <option value="">Select a question</option>
         <option value="question1">What is your mother's maiden name?</option>
         <option value="question2">What was your childhood nickname?</option>
         <option value="question3">What is was your first pet?</option>
         <option value="question4">what is your favorite movie?</option> 
+        
       </select>
-      <input type="text" placeholder="Answer" id="secret-question2" name="secret-question">
+      <input type="text" placeholder="Answer" id="secret-questiontext" name="secret-questiontext">
 
     
       <label for="password">Password:</label>
-      <input type="password" id="password" name="password">
+      <input type="password" id="password" required minlength="6" name="password">
     
       <label for="message">Message:</label>
       <textarea id="message" placeholder="Message for us?" name="message"></textarea>
